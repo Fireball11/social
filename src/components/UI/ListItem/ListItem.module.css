@@ -1,0 +1,27 @@
+.ListItem {
+    width: auto;
+    height: 80px;
+    margin: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ListItem:hover {
+    background-color: #2b2b2b;
+}
+
+.ListItem:active {
+    background-color: blueviolet;
+}
+
+.Avatar {
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.Text {
+    align-self: center;
+}
