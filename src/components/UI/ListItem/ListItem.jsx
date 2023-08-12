@@ -1,6 +1,8 @@
 import React from "react";
 import classes from './ListItem.module.css';
 
+let Data = new Date()
+
 const ListItem = () => {
     return (
         <div className={classes.ListItem}>
@@ -9,6 +11,11 @@ const ListItem = () => {
                 <h4>Имя Фамилия</h4>
                 <span>Сообщение</span>
             </div>
+            <div className={classes.MsgInfo}>
+                <i></i>
+                <span className={classes.Time}>{Data.getHours()}:{Data.getMinutes()}</span>
+            </div>
+
         </div>
     );
 }
