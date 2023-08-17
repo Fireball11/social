@@ -20,6 +20,7 @@
 .Avatar {
     width: auto;
     height: 100%;
+    margin-right: 10px;
     border-radius: 50%;
 }
 
@@ -37,4 +38,9 @@
 .Time {
     font-size: .8rem;
     color: #777777;
+}
+
+.checkIcon {
+    fill: #FFFFFF;
+    border: 10px solid red;
 }

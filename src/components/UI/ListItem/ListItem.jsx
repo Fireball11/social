@@ -1,5 +1,6 @@
 import React from "react";
 import classes from './ListItem.module.css';
+import CheckIcon from '../icons/CheckIcon.jsx';
 
 let Data = new Date()
 
@@ -12,10 +13,9 @@ const ListItem = () => {
                 <span>Сообщение</span>
             </div>
             <div className={classes.MsgInfo}>
-                <i></i>
+                <CheckIcon id="delivered" className={classes.CheckIcon}></CheckIcon>
                 <span className={classes.Time}>{Data.getHours()}:{Data.getMinutes()}</span>
             </div>
-
         </div>
     );
 }
