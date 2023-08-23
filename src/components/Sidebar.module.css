@@ -5,3 +5,11 @@
     height: 100%;
     background-color: #212121;
 }
+
+.ListHeader {
+    height: 100px;
+}
+
+.menuIcon {
+    fill: #aaa;
+}
