@@ -4,6 +4,8 @@
     width: 25vw;
     height: 100vh;
     background-color: #212121;
+
+    padding: 0 5px;
 }
 
 .ListHeader {
@@ -12,4 +14,51 @@
 
 .menuIcon {
     fill: #aaa;
+}
+
+.ListItem {
+    position: relative;
+    width: auto;
+    height: 80px;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ListItem:hover {
+    background-color: #2b2b2b;
+}
+
+.ListItem:active {
+    background-color: blueviolet;
+}
+
+.Avatar {
+    width: auto;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.Text {
+    margin: 0 10pxx;
+    align-self: center;
+}
+
+.MsgInfo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.Time {
+    font-size: .8rem;
+    color: #777777;
+}
+
+.checkIcon {
+    fill: #FFFFFF;
+    border: 10px solid red;
 }

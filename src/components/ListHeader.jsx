@@ -1,11 +1,11 @@
 import React from "react";
 import classes from './Sidebar.module.css';
-import MenuIcon from "./UI/icons/MenuIcon";
+import MenuButton from './UI/MenuButton.jsx';
 
 const ListHeader = () => {
     return (
         <div className={classes.ListHeader}>
-            <MenuIcon className={classes.menuIcon}></MenuIcon>
+            <MenuButton></MenuButton>
         </div>
     )
 }

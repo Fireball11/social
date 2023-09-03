@@ -1,5 +1,5 @@
 import React from "react";
-import ListItem from "./UI/ListItem/ListItem.jsx";
+import ListItem from "./ListItem.jsx";
 
 const ListMsg = (props) => {
     return (

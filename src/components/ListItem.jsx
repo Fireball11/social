@@ -1,6 +1,6 @@
 import React from "react";
-import classes from './ListItem.module.css';
-import CheckIcon from '../icons/CheckIcon.jsx';
+import classes from './Sidebar.module.css';
+import CheckIcon from './UI/icons/CheckIcon.jsx';
 
 let Data = new Date()
 

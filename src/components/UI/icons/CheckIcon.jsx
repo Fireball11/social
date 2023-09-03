@@ -1,11 +1,10 @@
 import React from "react";
 
-let Fill = {};
 
 const CheckIcon = (props) => {
-
-    Fill = (props.color === "white") ? { fill: "white" } :
-    (props.color === "black") ? { fill: "black" } : undefined;
+    
+    let Fill = {fill: props.color};
+    
 
     switch (props.id) {
         case "delivered":
