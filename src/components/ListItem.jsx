@@ -14,7 +14,7 @@ const ListItem = () => {
             </div>
             <div className={classes.MsgInfo}>
                 <CheckIcon id="delivered" color={"white"}></CheckIcon>
-                <span className={classes.Time}>{Data.getHours()}:{Data.getMinutes()}</span>
+                <span className={classes.Time}>{Data.getHours()}:{ (Data.getMinutes() < 10) ? "0"+Data.getMinutes() : Data.getMinutes() }</span>
             </div>
         </div>
     );

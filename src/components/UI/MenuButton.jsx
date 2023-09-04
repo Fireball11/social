@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuIcon from './icons/MenuIcon.jsx';
+import MenuIcon from './icons/ButtonIcons.jsx';
 import classes from './MenuButton.module.css';
 
 const MenuButon = (props) => {
@@ -9,7 +9,7 @@ const MenuButon = (props) => {
     // }
     return (
         <div  className={classes.MenuButton}>
-            <MenuIcon color="#AAAAAA"></MenuIcon>
+            {/* <MenuIcon></MenuIcon> */}
         </div>
     )
 }

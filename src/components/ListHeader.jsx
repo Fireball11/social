@@ -1,11 +1,13 @@
 import React from "react";
 import classes from './Sidebar.module.css';
-import MenuButton from './UI/MenuButton.jsx';
+import Button from "./UI/Button/Button.tsx";
 
 const ListHeader = () => {
     return (
         <div className={classes.ListHeader}>
-            <MenuButton></MenuButton>
+
+            <Button icon="menu" color="#AAAAAA" />
+            
         </div>
     )
 }
