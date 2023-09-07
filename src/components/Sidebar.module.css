@@ -11,7 +11,7 @@
 .ListHeader {
     height: 100px;
     display: flex;
-    
+    padding: 5px 0;
 }
 
 .menuIcon {

@@ -1,6 +1,25 @@
 .Search {
-    /* width: 100%; */
+    width: 90%;
     height: 40px;
     margin: 0 10px;
     border-radius: 20px;
+
+    background-color: #181818;
+    border: .5px solid #474747;
+
+    background-image: url("./search_FILL0_wght200_GRAD0_opsz24.svg");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 35px;
 }
+
+.Search::placeholder {
+    padding-left: 50px;
+    font-size: 1.2rem;
+}
+
+/* .Search::before{
+    content: url(./search_FILL0_wght200_GRAD0_opsz24.svg);
+    width: 10px;
+    background-image: url('./search_FILL0_wght200_GRAD0_opsz24.svg');
+} */
