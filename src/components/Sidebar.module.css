@@ -10,6 +10,8 @@
 
 .ListHeader {
     height: 100px;
+    display: flex;
+    
 }
 
 .menuIcon {
