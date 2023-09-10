@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Sidebar.module.css';
-import ListMsg from "./ListMsg";
 import ListHeader from "./ListHeader";
+import ListItem from './ListItem';
 
 const Sidebar = (props) => {
     return (
@@ -9,9 +9,12 @@ const Sidebar = (props) => {
             <ListHeader>
 
             </ListHeader>
-            <ListMsg>
-                
-            </ListMsg>
+            <div className="ListMsg">
+                <ListItem></ListItem>
+                <ListItem></ListItem>
+                <ListItem></ListItem>
+                <ListItem></ListItem>
+            </div>
         </div>
     );
 };

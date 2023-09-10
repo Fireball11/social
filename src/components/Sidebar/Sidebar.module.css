@@ -1,3 +1,23 @@
+.Sidebar {
+    display: block;
+
+    width: 25vw;
+    height: 100vh;
+    background-color: #212121;
+
+    padding: 0 5px;
+}
+
+.ListHeader {
+    height: 100px;
+    display: flex;
+    padding: 5px 0;
+}
+
+.menuIcon {
+    fill: #aaa;
+}
+
 .ListItem {
     position: relative;
     width: auto;
@@ -33,6 +53,8 @@
     position: absolute;
     right: 10px;
     top: 10px;
+    display: flex;
+    
 }
 
 .Time {

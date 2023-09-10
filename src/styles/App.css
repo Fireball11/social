@@ -4,7 +4,8 @@
 }
 
 .App {
-    width: 100%;
     display: flex;
+    max-width: 1682px!important;
+    margin: 0 auto;
     
 }
