@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Sidebar.module.css';
-import Button from "./UI/Button/Button";
-import Search from "./UI/Search/Search";
+import Button from "../UI/Button/Button";
+import Search from "../UI/Search/Search";
 
 const ListHeader = () => {
     return (

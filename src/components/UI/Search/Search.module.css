@@ -2,6 +2,7 @@
     width: 90%;
     height: 40px;
     margin: 0 10px;
+    padding-left: 50px;
     border-radius: 20px;
 
     background-color: #181818;
@@ -14,8 +15,16 @@
 }
 
 .Search::placeholder {
-    padding-left: 50px;
-    font-size: 1.2rem;
+    /* padding-left: 50px; */
+    font-size: 16px;
+}
+
+.Search:focus {
+    outline: 1px solid #8774E1;
+}
+
+.Search::-ms-clear {
+    display: none;
 }
 
 /* .Search::before{
