@@ -1,0 +1,36 @@
+.Chat {
+    width: 75vw;
+    height: 100vh;
+}
+
+
+.ChatHeader {
+    height: 60px;
+    margin-left: 1px;
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+    background-color: #212121;
+}
+
+.MoreButton {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    border-radius: 50%;
+}
+
+.MoreButton:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.Avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

@@ -1,11 +1,13 @@
 import React from "react";
 import classes from './Sidebar.module.css';
-import MenuIcon from "./UI/icons/MenuIcon";
+import Button from "../UI/Button/Button";
+import Search from "../UI/Search/Search";
 
 const ListHeader = () => {
     return (
         <div className={classes.ListHeader}>
-            <MenuIcon className={classes.menuIcon}></MenuIcon>
+            <Button icon="menu" color="#AAAAAA" />
+            <Search />
         </div>
     )
 }
