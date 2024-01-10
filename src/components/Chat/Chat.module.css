@@ -14,7 +14,7 @@
     background-color: #212121;
 }
 
-.MoreButton {
+.MenuButton {
     width: 40px;
     height: 40px;
 
@@ -25,7 +25,7 @@
     border-radius: 50%;
 }
 
-.MoreButton:hover {
+.MenuButton:hover {
     background-color: rgba(255, 255, 255, .2);
 }
 
